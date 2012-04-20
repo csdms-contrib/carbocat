@@ -1,0 +1,35 @@
+example               	Model Name
+500                     total Iterations
+0.001                   timestep( My) 
+
+0.2                     Eustasy period 1 (My)
+0                       Eustasy amplitude 1 (m)
+0.065                   Eustasy period 2 (My)
+0                       Eustasy amplitude 2 (m)
+
+arse
+
+2000                    Lithology 1 carb Production Rate (mMy-1)
+2000                    Lithology 1 Surface light intensity
+0.2                     Lithology 1 extinction coefficient
+300                     Lithology 1 saturating light
+
+1000                    Lithology 2 carb Production Rate (mMy-1)
+2000                    Lithology 2 Surface light intensity
+0.1                     Lithology 2 extinction coefficient
+300                     Lithology 2 saturating light
+
+500                     Lithology 3 carb Production Rate (mMy-1)
+2000                    Lithology 3 Surface light intensity
+0.05                    Lithology 3 extinction coefficient
+300                     Lithology 3 saturating light
+
+params\CARules2_4_10_6_10.txt               CA rules input file
+params/initialFaciesMapRandom.txt           initial condition facies map
+params/initialTopographyRampFlat100m.txt    initial water depth map
+params/subsidenceConst50m.txt               subsidence rate map
+
+3                       Number of time lines to plot on cross sections
+500 1000 1500           Ages of the time lines in terms of model iteration number
+8                       Number of maps
+1 2 3 4 5 6 7 10        Map ages
